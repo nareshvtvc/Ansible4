@@ -1,0 +1,6 @@
+---
+- name: i want to mytomuser.j2 file into my node side
+  template:
+    src: templates/mytomuser.j2
+    dest: /opt/tomcat/conf/tomcat-user.xml
+    
