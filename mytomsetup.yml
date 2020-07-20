@@ -1,0 +1,6 @@
+---
+- hosts: applications
+  become: yes
+  roles:
+   - {role: tom7onu16, when: ansible_os_family=="Debain"}
+

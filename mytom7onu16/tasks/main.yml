@@ -1,2 +1,18 @@
 ---
 # tasks file for mytom7onu16
+- include: myjavainstall.yml
+- include: mytomusergroup.yml
+- include: download.yml
+- include: extract.yml
+- include: permissions.yml
+- include: mytomconfig.yml
+- include: mytomstart.yml
+- include: mytommanager.yml
+- include: mytomrestart.yml
+- include: myjavadeploy.yml
+- include: mytomrestart.yml
+
+
+
+
+

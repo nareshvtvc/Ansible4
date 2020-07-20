@@ -1,0 +1,6 @@
+---
+- name: i want to download tomcat7 tar file
+  get_url:
+   url: https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.42/bin/apache-tomcat-7.0.42.tar.gz
+   dest: /home/ubuntu/apache-tomcat-7.0.42.tar.gz
+   force_basic_auth: yes
