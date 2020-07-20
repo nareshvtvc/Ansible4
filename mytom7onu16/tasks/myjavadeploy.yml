@@ -1,5 +1,5 @@
 ---
-- name: deploy my java application on my tomcat8 server(all node side)
+- name: deploy my java application on my tomcat7 server(all node side)
   get_url:
     url: https://naresh123456.s3.amazonaws.com/mahaLogin.war
     dest: /opt/tomcat/webapps/mahaLogin.war
