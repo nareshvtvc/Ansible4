@@ -1,6 +1,5 @@
 ---
-- hosts: applications
+- hosts: 172.31.58.107
   become: yes
   roles:
-   - {role: mytom7onu16, when: ansible_os_family=="Debain"}
-
+   - mytom7onu16
